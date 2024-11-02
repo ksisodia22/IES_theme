@@ -1,0 +1,72 @@
+/* Set background color and general text color */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Link colors */
+a {
+    color: #FFD700; /* Gold color for links */
+}
+a:hover {
+    color: #FFA500; /* Orange color on hover for better distinction */
+}
+
+/* Header and title colors */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* White headers */
+}
+
+/* Sidebar adjustments */
+.wy-side-nav-search {
+    background-color: #333333; /* Dark sidebar */
+}
+.wy-menu-vertical a {
+    color: #CCCCCC; /* Light gray links in sidebar */
+}
+.wy-menu-vertical a:hover {
+    color: #FFFFFF; /* White on hover in sidebar */
+}
+
+/* Table of contents and sidebar */
+.rst-content .toctree-l1, .rst-content .toctree-l2, .rst-content .toctree-l3 {
+    color: #CCCCCC; /* Light gray for TOC links */
+}
+.rst-content .toctree-l1 a, .rst-content .toctree-l2 a, .rst-content .toctree-l3 a {
+    color: #FFD700; /* Gold for TOC links */
+}
+
+/* Code blocks */
+.highlight pre {
+    background-color: #222222; /* Dark background for code blocks */
+    color: #00FF00; /* Bright green for code text */
+}
+.highlight .hll {
+    background-color: #444444; /* Highlighted line in code blocks */
+}
+.highlight .c { color: #888888; } /* Comment color */
+.highlight .k { color: #FFD700; } /* Keywords */
+.highlight .s { color: #FFA500; } /* Strings */
+
+/* Logo adjustments */
+.wy-side-nav-search a[href="/"] {
+    background-image: url("../_static/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px; /* Adjust as needed */
+    display: block;
+    text-indent: -9999px; /* Hide default text link */
+    background-position: center;
+}
+
+/* Footer text color */
+footer {
+    color: #666666; /* Dark gray for footer text */
+}
+
+/* Adjust width of content to prevent crowding */
+.wy-nav-content {
+    max-width: 900px;
+    margin: auto;
+}
+
