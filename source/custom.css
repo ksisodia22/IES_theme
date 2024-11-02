@@ -1,0 +1,59 @@
+/* Set background color and general text color */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Link colors */
+a {
+    color: #FFD700; /* Gold color for links */
+}
+a:hover {
+    color: #FFA500; /* Orange color on hover for better distinction */
+}
+
+/* Header and title colors */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* White headers */
+}
+
+/* Sidebar styling */
+.wy-side-nav-search, .wy-menu-vertical {
+    background-color: #000000; /* Black background */
+}
+
+.wy-menu-vertical a {
+    color: #FFFFFF; /* White text for links */
+}
+.wy-menu-vertical a:hover {
+    color: #FFD700; /* Gold on hover */
+}
+
+/* Main content background */
+.rst-content {
+    background-color: #121212; /* Dark gray for readability */
+    color: #FFFFFF; /* White text for main content */
+}
+
+/* Code block styling */
+.highlight pre {
+    background-color: #1E1E1E; /* Dark background for code */
+    color: #00FF00; /* Bright green for code text */
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000; /* Black footer */
+    color: #888888; /* Light gray text for footer */
+}
+
+/* Adjustments for logo */
+.wy-side-nav-search a[href="/"] {
+    background-image: url("../_static/ies_logo.jpeg");
+    background-size: contain;
+    height: 80px; /* Adjust as needed */
+    display: block;
+    text-indent: -9999px; /* Hide default text link */
+    background-position: center;
+}
+
